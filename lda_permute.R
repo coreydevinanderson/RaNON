@@ -1,3 +1,4 @@
+# Start
 lda_permute <- function(x, grouping, nsim = 999){
   
   fit_obs <- MASS::lda(x, grouping, CV = TRUE)
@@ -22,6 +23,4 @@ return(list("observed_accuracy" = obs_mean,
              "prior" = prior,
              "P-value" = p_val))
 }
-
-# Example call
-lda_permute(x = iris[, c(1:3)], grouping = iris$Species)
+# End
