@@ -1,2 +1,2 @@
 # RaNON
-R functions for simple nonparametric testing
+R functions to conduct permutation based tests of significance for selection statistical models.
